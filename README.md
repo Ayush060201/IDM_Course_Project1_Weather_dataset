@@ -1,4 +1,5 @@
-# Data Analysis and Modeling Project README
+# Exploratory data analysis on weather data
+# Team: T30
 
 Welcome to this data analysis and modeling project! This repository contains code snippets and explanations for various data analysis tasks, including data preprocessing, linear regression, XGBoost regression, and data visualization. Each section below summarizes a specific code snippet or task along with its purpose and instructions.
 
@@ -15,6 +16,47 @@ Welcome to this data analysis and modeling project! This repository contains cod
 ## Introduction
 
 This project focuses on data analysis and modeling tasks using Python and popular libraries such as pandas, scikit-learn, XGBoost, and Seaborn. Each section below covers a specific aspect of the project.
+Data Source: https://www.kaggle.com/datasets/amirhoseinsedaghati/the-weather-of-187-countries-in-2020
+
+This dataset contains weather data for various countries in 2020.
+### The Feature Explanations:
+
+- STATION: The station identifier
+- Country/Region: The country or region where the station is located
+- DATE: The date of the weather observation in YYYY-MM-DD format
+- Year: The year of the weather observation
+- Month: The month of the weather observation
+- Day: The day of the weather observation
+- PRCP: The amount of precipitation (rain or snow)
+- SNWD: The depth of snow on the ground
+- TAVG: The average temperature
+- TMAX: The maximum temperature
+- TMIN: The minimum temperature
+- SNOW: The amount of snowfall
+- LATITUDE: The latitude of the station's location
+- LONGITUDE: The longitude of the station's location
+- ELEVATION: The elevation of the station's location
+- PRCP_ATTRIBUTES: Additional attributes for the precipitation data
+- TAVG_ATTRIBUTES: Additional attributes for the average temperature data
+- TMAX_ATTRIBUTES: Additional attributes for the maximum temperature data
+- TMIN_ATTRIBUTES: Additional attributes for the minimum temperature data
+- DAPR: The number of days since the last precipitation of any amount
+- MDPR: The multiday precipitation total
+- WESD: The water equivalent of the snow depth on the ground
+- SNWD_ATTRIBUTES: Additional attributes for the snow depth data
+
+### Operation
+Following operations are performed in this data during analysis.
+* Loading 
+* Visualization
+* Preprocessing
+	* Handling `null` values
+	* Labelling
+* Regression
+	1. Linear Regression
+	2. Ridge Regression
+	3. XGB Regression
+*  Hyperparameter Tuning
 
 ## Data Preprocessing
 
